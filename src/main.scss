@@ -1,0 +1,111 @@
+$primary: pink;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// NAVBAR 
+
+.custom-navbar {
+
+    background-color: hsl(350, 100%, 83%) !important; 
+
+}
+
+.nav-link {
+
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+
+}
+
+// MAIN BODY
+
+.custom-bg-color {
+
+    background-color: pink !important;
+
+}
+
+// CARDS
+
+.card {
+
+    margin: 20px;
+
+}
+
+.card-img-top {
+
+    padding: 10px;
+
+}
+
+.card-title {
+
+    font-family: "Patrick Hand SC", Arial, Helvetica, sans-serif;
+
+}
+
+.card-text {
+
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+
+}
+
+.text-body-secondary {
+
+    font-size: 0.8em;
+
+}
+
+// MAIN TEXT
+
+h1 {
+
+    margin: 30px;
+    font-family: "Patrick Hand SC", Arial, Helvetica, sans-serif;
+
+}
+
+h4 {
+
+    margin: 30px;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+
+}
+
+.body-text {
+
+    margin: 30px;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+
+}
+
+// INFO CARD
+
+#info-card {
+
+    float: right;
+    text-overflow: inherit;
+
+}
+
+.info-card-title {
+
+    font-size: 1.5em;
+    font-family: "Patrick Hand SC", Arial, Helvetica, sans-serif;
+
+}
+
+.info-card-text {
+
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+
+}
+
+// SUBMISSION FORM
+
+body {
+
+  --bs-body-font-family: "Dosis", Arial, Helvetica, sans-serif;
+
+}
