@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Disney Princesses</title>
+    <link rel="icon" href="images/disney-letter-logo.png" type="image/png">
+
+    <!-- BOOTSTRAP -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Emilys+Candy&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Patrick+Hand+SC&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- STYLE SHEET-->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+
+        <div class="container-fluid">
+
+            <!-- HEADER LOGO -->
+
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logos/disney-logo.png" alt="Logo" width="60" height="24"
+                    class="d-inline-block align-text-top">
+            </a>
+
+            <!-- COLLAPSE AT SIZE -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- MAIN NAV BUTTONS -->
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- HOME BUTTON -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <!-- DETAILS BUTTON -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="details.html">Details</a>
+                    </li>
+
+                    <!-- ABOUT BUTTON -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <!-- ADD A CHARACTER -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="new-character-form.html">Add a Character!</a>
+                    </li>
+
+                </ul>
+
+                <!-- SEARCH BAR -->
+
+                <form class="d-flex" role="search">
+
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-custom" type="submit">Search</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- CHARACTER CARDS -->
+
+    <div class="container my-2">
+
+        <div class="row">
+
+            <!-- MOANA -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/moana/moana.webp" class="card-img-top p-2" alt="Moana">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Moana</h5>
+                        <p class="card-text">Moana is a strong-willed, independent wayfinder. She has great pride in who
+                            she is and where she comes from, and doesn’t back away from new challenges.</p>
+                        <p class="card-text"><small class="text-body-secondary">Moana | 2016</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- RAPUNZEL -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/rapunzel.jpg" class="card-img-top p-2" alt="Rapunzel">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Rapunzel</h5>
+                        <p class="card-text">Despite not knowing the world beyond her tower, Rapunzel finds the courage
+                            to push herself forward and discover new friends, find her true family and pursue her
+                            dreams.</p>
+                        <p class="card-text"><small class="text-body-secondary">Tangled | 2010</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- TIANA -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/tiana.png" class="card-img-top p-2" alt="Tiana">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Tiana</h5>
+                        <p class="card-text">A visionary who dreamt—with her father—of sharing the joys of good food
+                            with others, Tiana is passionately focused on achieving her goal of opening her restaurant.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">The Princess and the Frog | 2009</small>
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- ARIEL -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/ariel.png" class="card-img-top p-2" alt="Ariel">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Ariel</h5>
+                        <p class="card-text">Driven by her independent spirit and curiosity, Ariel is always looking to
+                            learn about the treasures she finds and the people around her.</p>
+                        <p class="card-text"><small class="text-body-secondary">The Little Mermaid | 1989</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CINDERELLA -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/cinderella.png" class="card-img-top p-2" alt="Cinderella">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Cinderella</h5>
+                        <p class="card-text">Cinderella knows that being a positive influence is a sort of magic that
+                            can transform the world, so she is warm and sincere with everyone she meets.</p>
+                        <p class="card-text"><small class="text-body-secondary">Cinderella | 1950</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- BELLE -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/belle.png" class="card-img-top p-2" alt="Belle">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Belle</h5>
+                        <p class="card-text">Belle is imaginative and smart, and comfortable being authentically
+                            herself. She adores a good book, because different stories bring her to new places,
+                            introduce her to new people, and allow her to see new perspectives.</p>
+                        <p class="card-text"><small class="text-body-secondary">Beauty and the Beast | 1991</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- SNOW WHITE -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/snow-white.webp" class="card-img-top p-2" alt="Snow White">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Snow White</h5>
+                        <p class="card-text">Snow White knows that every day is an opportunity to make new friends, and
+                            that it’s best to be kind to everyone, even if they’re grumpy!</p>
+                        <p class="card-text"><small class="text-body-secondary">Snow White and the Seven Dwarves |
+                                1937</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- AURORA -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/aurora.webp" class="card-img-top p-2" alt="Aurora">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Aurora</h5>
+                        <p class="card-text">Also known as Briar Rose, Aurora is graceful, playful, and optimistic. She
+                            knows that a wonderful future awaits, if you just have the courage to dream it, and her joy
+                            for life is reflected in her imaginative interactions with her forest friends.</p>
+                        <p class="card-text"><small class="text-body-secondary">Sleeping Beauty | 1959</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- MULAN -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/mulan.webp" class="card-img-top p-2" alt="Mulan">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Mulan</h5>
+                        <p class="card-text">Mulan is clever and down-to-earth, and with the help of her new friends,
+                            proves her worth to her family and country by becoming a legendary warrior and savior of
+                            China.</p>
+                        <p class="card-text"><small class="text-body-secondary">Mulan | 1998</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- MERIDA -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/merida.png" class="card-img-top p-2" alt="Merida">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Merida</h5>
+                        <p class="card-text">Merida believes that if you don’t like a certain story about you, you can
+                            write your own. Determined to create her own path in life, Merida defies an age-old custom
+                            sacred to her parents and the Lords of the Land.</p>
+                        <p class="card-text"><small class="text-body-secondary">Brave | 2012</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- POCAHONTAS -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/pocahontas.webp" class="card-img-top p-2" alt="Pocahontas">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Pocahontas</h5>
+                        <p class="card-text">Pocahontas is a leader of the Powhatan Tribe, of which her father is the
+                            chief. She is noble, free-spirited, and is lovingly nicknamed “Little Mischief” by her
+                            father.</p>
+                        <p class="card-text"><small class="text-body-secondary">Pocahontas | 1995</small></p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- RAYA -->
+
+            <div class="col">
+
+                <div class="card card-custom" style="width: 16rem;">
+
+                    <img src="images/raya.png" class="card-img-top p-2" alt="Raya">
+
+                    <a class="card-body link-underline link-underline-opacity-0" href="details.html">
+
+                        <h5 class="card-title">Raya</h5>
+                        <p class="card-text">Raya is an independent warrior and resilient hero, whose wit is as sharp as
+                            her blade. Despite personal loss, perilous encounters, and numerous setbacks, Raya never
+                            gives up.</p>
+                        <p class="card-text"><small class="text-body-secondary">Raya and the Last Dragon | 2021</small>
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
